@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04105230263A766B00FCE1B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0410522F263A766B00FCE1B0 /* AppDelegate.swift */; };
+		04105232263A766B00FCE1B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04105231263A766B00FCE1B0 /* SceneDelegate.swift */; };
+		04105234263A766B00FCE1B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04105233263A766B00FCE1B0 /* ViewController.swift */; };
+		04105237263A766B00FCE1B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04105235263A766B00FCE1B0 /* Main.storyboard */; };
+		0410523A263A766B00FCE1B0 /* Users.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04105238263A766B00FCE1B0 /* Users.xcdatamodeld */; };
+		0410523C263A766C00FCE1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0410523B263A766C00FCE1B0 /* Assets.xcassets */; };
+		0410523F263A766C00FCE1B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0410523D263A766C00FCE1B0 /* LaunchScreen.storyboard */; };
+		04105274263A7E7300FCE1B0 /* JsonParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04105273263A7E7300FCE1B0 /* JsonParsing.swift */; };
+		04105285263A8F8E00FCE1B0 /* UserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04105284263A8F8E00FCE1B0 /* UserDetail.swift */; };
+		04489793263AA049005A069F /* UsersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04489791263AA049005A069F /* UsersCell.swift */; };
+		04489794263AA049005A069F /* UsersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04489792263AA049005A069F /* UsersCell.xib */; };
+		044897B0263ABEC3005A069F /* UserDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044897AF263ABEC3005A069F /* UserDetailController.swift */; };
+		F3158E356B43CF88C6AB9C81 /* Pods_TawkioIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7A73C8D8DE38AA93A380FF /* Pods_TawkioIOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0410522C263A766B00FCE1B0 /* TawkioIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TawkioIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0410522F263A766B00FCE1B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04105231263A766B00FCE1B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04105233263A766B00FCE1B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04105236263A766B00FCE1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04105239263A766B00FCE1B0 /* TawkioIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TawkioIOS.xcdatamodel; sourceTree = "<group>"; };
+		0410523B263A766C00FCE1B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0410523E263A766C00FCE1B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04105240263A766C00FCE1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04105273263A7E7300FCE1B0 /* JsonParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonParsing.swift; sourceTree = "<group>"; };
+		04105284263A8F8E00FCE1B0 /* UserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetail.swift; sourceTree = "<group>"; };
+		04489791263AA049005A069F /* UsersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersCell.swift; sourceTree = "<group>"; };
+		04489792263AA049005A069F /* UsersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsersCell.xib; sourceTree = "<group>"; };
+		044897AF263ABEC3005A069F /* UserDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailController.swift; sourceTree = "<group>"; };
+		24CA4C5154A552452CDA05A9 /* Pods-TawkioIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TawkioIOS.release.xcconfig"; path = "Target Support Files/Pods-TawkioIOS/Pods-TawkioIOS.release.xcconfig"; sourceTree = "<group>"; };
+		3C7A73C8D8DE38AA93A380FF /* Pods_TawkioIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TawkioIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48FD0AD2FD335AEC17D0EB8 /* Pods-TawkioIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TawkioIOS.debug.xcconfig"; path = "Target Support Files/Pods-TawkioIOS/Pods-TawkioIOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04105229263A766B00FCE1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3158E356B43CF88C6AB9C81 /* Pods_TawkioIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04105223263A766B00FCE1B0 = {
+			isa = PBXGroup;
+			children = (
+				0410522E263A766B00FCE1B0 /* tawkioIOS */,
+				0410522D263A766B00FCE1B0 /* Products */,
+				CC852F3D6B4EE6E729D4DCCC /* Pods */,
+				7BF8D79BF99D4013799A0407 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0410522D263A766B00FCE1B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0410522C263A766B00FCE1B0 /* TawkioIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0410522E263A766B00FCE1B0 /* tawkioIOS */ = {
+			isa = PBXGroup;
+			children = (
+				04489790263AA035005A069F /* CustomCell */,
+				04105283263A8F8100FCE1B0 /* Models */,
+				04105272263A7E7300FCE1B0 /* ViewModel */,
+				0410522F263A766B00FCE1B0 /* AppDelegate.swift */,
+				04105231263A766B00FCE1B0 /* SceneDelegate.swift */,
+				04105233263A766B00FCE1B0 /* ViewController.swift */,
+				044897AF263ABEC3005A069F /* UserDetailController.swift */,
+				04105235263A766B00FCE1B0 /* Main.storyboard */,
+				0410523B263A766C00FCE1B0 /* Assets.xcassets */,
+				0410523D263A766C00FCE1B0 /* LaunchScreen.storyboard */,
+				04105240263A766C00FCE1B0 /* Info.plist */,
+				04105238263A766B00FCE1B0 /* Users.xcdatamodeld */,
+			);
+			path = tawkioIOS;
+			sourceTree = "<group>";
+		};
+		04105272263A7E7300FCE1B0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04105273263A7E7300FCE1B0 /* JsonParsing.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04105283263A8F8100FCE1B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04105284263A8F8E00FCE1B0 /* UserDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04489790263AA035005A069F /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				04489791263AA049005A069F /* UsersCell.swift */,
+				04489792263AA049005A069F /* UsersCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		7BF8D79BF99D4013799A0407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C7A73C8D8DE38AA93A380FF /* Pods_TawkioIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC852F3D6B4EE6E729D4DCCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C48FD0AD2FD335AEC17D0EB8 /* Pods-TawkioIOS.debug.xcconfig */,
+				24CA4C5154A552452CDA05A9 /* Pods-TawkioIOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0410522B263A766B00FCE1B0 /* TawkioIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04105243263A766C00FCE1B0 /* Build configuration list for PBXNativeTarget "TawkioIOS" */;
+			buildPhases = (
+				C14DC3FEA4E250E4A8B198CA /* [CP] Check Pods Manifest.lock */,
+				04105228263A766B00FCE1B0 /* Sources */,
+				04105229263A766B00FCE1B0 /* Frameworks */,
+				0410522A263A766B00FCE1B0 /* Resources */,
+				69374FC5292463387C92E992 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TawkioIOS;
+			productName = tawkioIOS;
+			productReference = 0410522C263A766B00FCE1B0 /* TawkioIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04105224263A766B00FCE1B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0410522B263A766B00FCE1B0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 04105227263A766B00FCE1B0 /* Build configuration list for PBXProject "TawkioIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04105223263A766B00FCE1B0;
+			productRefGroup = 0410522D263A766B00FCE1B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0410522B263A766B00FCE1B0 /* TawkioIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0410522A263A766B00FCE1B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04489794263AA049005A069F /* UsersCell.xib in Resources */,
+				0410523F263A766C00FCE1B0 /* LaunchScreen.storyboard in Resources */,
+				0410523C263A766C00FCE1B0 /* Assets.xcassets in Resources */,
+				04105237263A766B00FCE1B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69374FC5292463387C92E992 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TawkioIOS/Pods-TawkioIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TawkioIOS/Pods-TawkioIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TawkioIOS/Pods-TawkioIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C14DC3FEA4E250E4A8B198CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TawkioIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04105228263A766B00FCE1B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0410523A263A766B00FCE1B0 /* Users.xcdatamodeld in Sources */,
+				04105274263A7E7300FCE1B0 /* JsonParsing.swift in Sources */,
+				04105234263A766B00FCE1B0 /* ViewController.swift in Sources */,
+				044897B0263ABEC3005A069F /* UserDetailController.swift in Sources */,
+				04105230263A766B00FCE1B0 /* AppDelegate.swift in Sources */,
+				04105285263A8F8E00FCE1B0 /* UserDetail.swift in Sources */,
+				04489793263AA049005A069F /* UsersCell.swift in Sources */,
+				04105232263A766B00FCE1B0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04105235263A766B00FCE1B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04105236263A766B00FCE1B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0410523D263A766C00FCE1B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0410523E263A766C00FCE1B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04105241263A766C00FCE1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04105242263A766C00FCE1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04105244263A766C00FCE1B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48FD0AD2FD335AEC17D0EB8 /* Pods-TawkioIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tawkioIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-s.tawkioIOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04105245263A766C00FCE1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24CA4C5154A552452CDA05A9 /* Pods-TawkioIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tawkioIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Shubham-s.tawkioIOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04105227263A766B00FCE1B0 /* Build configuration list for PBXProject "TawkioIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04105241263A766C00FCE1B0 /* Debug */,
+				04105242263A766C00FCE1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04105243263A766C00FCE1B0 /* Build configuration list for PBXNativeTarget "TawkioIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04105244263A766C00FCE1B0 /* Debug */,
+				04105245263A766C00FCE1B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04105238263A766B00FCE1B0 /* Users.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04105239263A766B00FCE1B0 /* TawkioIOS.xcdatamodel */,
+			);
+			currentVersion = 04105239263A766B00FCE1B0 /* TawkioIOS.xcdatamodel */;
+			path = Users.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04105224263A766B00FCE1B0 /* Project object */;
+}

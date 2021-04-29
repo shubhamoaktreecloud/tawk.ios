@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-TawkioIOS/Pods-TawkioIOS-frameworks.sh
+${BUILT_PRODUCTS_DIR}/KRPullLoader/KRPullLoader.framework
+${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework
